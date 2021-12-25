@@ -1,0 +1,70 @@
+/* Tag element selector */
+body {
+  background-color: white;
+}
+
+.image img {
+  height: 100px;
+  width: 100px;
+  padding-top: 20cm;
+  background-position: center;
+  background-size: 300px;
+}
+
+/* Class Selector */
+.horizontal-rule {
+  background-color: red;
+  border-style: none;
+  border-top-style: dotted;
+  height: 1px;
+  width: 70%;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: rgb(12, 1, 4);
+}
+
+/* ID Selector */
+#my-name {
+  color: black;
+}
+
+/* Pseudoclasses */
+a:hover {
+  color: red;
+}
+
+.navbar ul {
+  list-style: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 100px;
+  display: block;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial;
+  text-align: none;
+}
+
+.navbar :hover {
+  background: none;
+  border-radius: 2px;
+  color: rgb(255, 47, 47);
+  text-decoration-line: none;
+}
+
+.h3 {
+  text-align: left;
+}
